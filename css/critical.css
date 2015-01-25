@@ -1,0 +1,89 @@
+html {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fdfdfd;
+  color: #212121;
+  font-family: 'Droid Serif', serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+h1, h2 {
+  color: #444;
+  text-rendering: optimizeLegibility;
+  font-family: 'Oswald', serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+section {
+  display: block;
+  margin: auto;
+  max-width: 36em;
+  padding: 0 1em;
+}
+
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+img {
+  border-style: none;
+}
+
+.logo {
+  float: right;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.digitalocean {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.quote1, .quote2, .quote3 {
+  background-repeat: no-repeat;
+  display: block;
+  padding-left: 120px;
+}
+
+.quote1 {
+  background-image: url("img/quote-1.jpg");
+}
+
+.quote2 {
+  background-image: url("img/quote-2.jpg");
+}
+
+.quote3 {
+  background-image: url("img/quote-3.jpg");
+}
+
+@media screen and (max-width: 35em) {
+  body {
+    font-size: 18px;
+  }
+}

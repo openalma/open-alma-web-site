@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Open ALMA - An enterprise letters system</title>
+    <meta name="description" content="Open ALMA is an open source enterprise letters system, ideal for large NHS hospitals.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>html{border:0;font-size:100%;margin:0;overflow-y:scroll;padding:0;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0;background:#fdfdfd;color:#212121;font-family:Droid Serif,serif;font-weight:300;font-size:16px;line-height:1.5;text-align:left;vertical-align:baseline}h1,h2{color:#444;text-rendering:optimizeLegibility;font-family:Oswald,serif;font-weight:700}h1{font-size:48px;line-height:1.1;margin-bottom:0}section{display:block;margin:auto;max-width:36em;padding:0 1em}p{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto}img{border-style:none}.logo{float:right;margin-left:16px;margin-bottom:16px}.digitalocean{margin-top:32px;margin-bottom:16px}.quote1,.quote2,.quote3{background-repeat:no-repeat;display:block;padding-left:120px}.quote1{background-image:url(img/quote-1.jpg)}.quote2{background-image:url(img/quote-2.jpg)}.quote3{background-image:url(img/quote-3.jpg)}@media screen and (max-width:35em){body{font-size:18px}}</style>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section>
+      <h1>Open ALMA</h1>
+      <img class="logo" src="img/opensource.png" width="100" height="100" alt="Open source software"></a>
+
+      <p>Open ALMA is a web based enterprise letters system particularly suited for large hospitals. Currently under development, the software will be released under a <a href="http://opensource.org/licenses/BSD-2-Clause">BSD open source license</a> when completed.</p>
+      <p>The system will interface with any hospital PAS using standard API calls and will drastically reduce the time it takes to produce letters by pulling patient demographics and registered GP information directly from the main hospital system.</p>
+      <p>Open ALMA has a sophisticated work-flow system which directs letters quickly to internal departments such as waiting list and clinical coding to reduce the movement of paper. Consultants and health professionals will be able to check and digitally sign letters on-line reducing the turn around time for issuing letters electronically to GP&rsquo;s. <br><i>— <a href="mailto:support@openalma.org.uk">Paul Bradley</a></i> (lead developer)</p>
+      <p>Follow the projects progress on Twitter <a href="https://twitter.com/openalma">@openalma</a></p>
+      <!--<p>The software will be released via the GitHub <a href="https://github.com/openalma">project page</a>.</p>-->
+      <p>&nbsp;</p>
+
+      <p class="quote1">&ldquo; After using an initial version of ALMA, I am looking forward to the many benefits the web version will bring us, in particular the ability to batch print whole clinics. Having the letters securely delivered to the GP will be fantastic &rdquo;<br>– Amy Johnson</p>
+      <p class="quote2">&ldquo; As a cancer coordinator, I find having all the letters centralised a huge time saver. Instead of having to trawl through multiple secretaries folders trying to find the correct Word file for a given patient, I can see all the letters across all specialties in one place. &rdquo;<br>– David Smith</p>
+      <p class="quote3">&ldquo; As a clinical researcher I really like the full-text search capabilities of the software. I can easily find candidate patients for my research, tag and categorise them for later retrieval. &rdquo;<br>– Sophie Harrison</p>
+
+      <h2>System Requirements</h2>
+      <p>The system has been designed with speed &amp; stability as two key features. As a result Open ALMA runs on very modest hardware requirements thanks to the technology stack chosen.</p>
+
+      <p><i>Server Technology</i></p>
+      <ol>
+        <li>PostgreSQL — highly optimised enterprise level database</li>
+        <li>Apache — webserver</li>
+        <li>PHP — scripting language</li>
+        <li>Memcached</li>
+        <li>LaTeX — typesetting system to produce high quality letters</li>
+      </ol>
+
+      <p><i>Client Technology</i></p>
+      <ol>
+        <li>A decent browser, Google Chrome, Firefox or IE10+</li>
+        <li><a href="http://ahkscript.org/">autohotkey</a> — used for autotext / auto completion.</li>
+      </ol>
+
+      <h2>What&rsquo;s the Roadmap</h2>
+      <p>The aim is to have a viable system by the 3<sup>rd</sup> quarter of 2015. You can review the latest copy of the <a href="http://www.openalma.org.uk/roadmap/">roadmap</a>.</p>
+
+      <h2>Open ALMA Consortium</h2>
+      <p>The Open ALMA Consortium is a membership association dedicated to insuring the continuing vitality and independence of the software. Consortium members contribute funding to support the ongoing development and maintenance of the code base and in return receive enterprise-level technical support and legal assurances that Open ALMA will remain independent and open-source.</p>
+
+      <p>Although not required, consortium membership entitles you to:</p>
+      <ul>
+        <li>Technical support &amp; implementation consultation</li>
+        <li>Custom changes as required</li>
+        <li>Printed manuals for your secretaries</li>
+        <li>License to use the clinical spell checker.</li>
+        <li>Performance management and software analytics via <a href="http://newrelic.com/">New Relic</a></li>
+        <li>Notification of service issues before your users are affected by integrating into <a href="https://raygun.io/">Raygun</a></li>
+      </ul>
+
+      <a href="https://www.digitalocean.com/?refcode=2b0fd6f27444" rel="nofollow"><img class="digitalocean" src="img/digitalocean.png" width="140" height="39" alt="Hosted by Digital Ocean"></a>
+
+    </section>
+    <script>
+      function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("script")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
+      loadCSS('http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,400italic');
+    </script>
+  </body>
+</html>
